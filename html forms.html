@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Html forms</title>
+		<meta name="author" content="Dafa Daifullah">
+	</head>
+	<body>
+	<h2>Html forms</h2>
+		<form action = "" method = "GET">
+		<fieldset>
+		<legend>formulir pendaftaran</legend>
+		<table>
+			<tr>
+				<td><label> Nama</label></td>
+				<td>:<input type = "text" name = "Nama" required placeholder = "nama lengkap"><br><br></td>
+			</tr>
+			
+			<tr>
+				<td width = "30%"><label>NIM	</label></td>
+				<td>:<input type = "number" name = "NIM"> <br><br></td>
+			
+			</tr>
+			<tr>
+				<td><label>Password </label></td>
+				<td>:<input type ="Password" name = "Password"></td>			
+			</tr>
+			<tr>
+				<td><label> Email </label></td>
+				<td>:<input type "Email" name = "Email"></td>			
+			</tr>
+			<tr>
+				<td><label> Tanggal_Lahir </label></td>
+				<td><input type = "date" name = "Tanggal_Lahir"></td>			
+			</tr>
+			<tr>
+				<td><label> Jenis_Kelamin </label></td>
+				<td><input type = "radio" name = "Jenis_Kelamin" value = "Laki-Laki">Laki-Laki</td>
+				<td><input type = "radio" name = "Jenis_Kelamin" value = "Perempuan">Perempuan</td>				
+			</tr>
+			<tr>				
+				<td><label> Hobi </label></td>	
+				<td>:<input type = "checkbox" name = "Hobi" value = "Olahraga">Olahraga</td>
+				<td><input type = "checkbox" name = "Hobi" value = "Membaca">Membaca</td>
+				<td><input type = "checkbox" name = "Hobi" value = "Menulis">Menulis</td>
+			</tr>
+			<tr>
+							
+			</tr>
+			<tr>
+				<td><label> Pas foto </label></td>
+				<td><input type = "file" name = "Foto" accept = "image/png" ></td>
+			</tr>
+			<tr>
+					<td><label>prodi</label></td>
+					<td>:
+					<select name = "prodi" required>
+					<option value = ""> Pilih Prodi</option>
+					<option value = "MI">manajemen informatika</option>
+					<option value = "TRPL">Teknik Rekaysa Perangkat Lunak</option>
+					<option value = "TK">Teknik Komputer</option>
+					<select></td>
+			</tr>
+				<tr>
+					<td><label>Alamat Lengkap</label></td>
+					<td valign ="middle">	
+					<textarea name="alamat"></textarea>
+					</td>
+				
+				</tr>
+				<tr>
+					<td colspan ="2">
+					<input type="submit" value = "Simpan"> 
+					<input type="reset" value = "Reset">
+					</td>
+				</tr>				
+		</table>
+		</fieldset>
+	</form>
+	</body>
+</html>
